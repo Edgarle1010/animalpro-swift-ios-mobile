@@ -1,0 +1,1973 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9050535BB6B499E2C2E3FDC1 /* Pods_AnimalProTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C1B0356BAA720A73CB41B8 /* Pods_AnimalProTests.framework */; };
+		B31E15E32C181FFC0012E1A7 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = B31E15E22C181FFC0012E1A7 /* ViewInspector */; };
+		B31E15E62C18204D0012E1A7 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B31E15E52C18204D0012E1A7 /* FirebaseMessaging */; };
+		B31E15E92C1824ED0012E1A7 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31E15E82C1824ED0012E1A7 /* K.swift */; };
+		B36F7C5E2C1826D1004A5A88 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36F7C5D2C1826D1004A5A88 /* GeneratedMocks.swift */; };
+		B3FA1C012C18110B0051E08E /* AnimalProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C002C18110B0051E08E /* AnimalProApp.swift */; };
+		B3FA1C052C18110D0051E08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C042C18110D0051E08E /* Assets.xcassets */; };
+		B3FA1C082C18110D0051E08E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C072C18110D0051E08E /* Preview Assets.xcassets */; };
+		B3FA1C0A2C18110D0051E08E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C092C18110D0051E08E /* CoreDataManager.swift */; };
+		B3FA1C172C18110D0051E08E /* AnimalProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C162C18110D0051E08E /* AnimalProTests.swift */; };
+		B3FA1C432C1813970051E08E /* BuildConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C422C1813970051E08E /* BuildConfiguration.swift */; };
+		B3FA1C452C1813C50051E08E /* BuildEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C442C1813C50051E08E /* BuildEnvironment.swift */; };
+		B3FA1C472C18147F0051E08E /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C462C18147F0051E08E /* RequestBuilder.swift */; };
+		B3FA1C492C1814AA0051E08E /* DefaultError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C482C1814AA0051E08E /* DefaultError.swift */; };
+		B3FA1C4B2C1814C00051E08E /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C4A2C1814C00051E08E /* APIError.swift */; };
+		B3FA1C4E2C1814E40051E08E /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C4D2C1814E40051E08E /* Encodable.swift */; };
+		B3FA1C502C1815050051E08E /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C4F2C1815050051E08E /* APIResponse.swift */; };
+		B3FA1C522C18151C0051E08E /* APISession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C512C18151C0051E08E /* APISession.swift */; };
+		B3FA1C542C1815370051E08E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C532C1815370051E08E /* APIService.swift */; };
+		B3FA1C572C1815C30051E08E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C562C1815C30051E08E /* User.swift */; };
+		B3FA1C5A2C18161B0051E08E /* UserSessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C592C18161B0051E08E /* UserSessionData.swift */; };
+		B3FA1C5C2C1816B90051E08E /* RefreshTokenPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C5B2C1816B90051E08E /* RefreshTokenPayload.swift */; };
+		B3FA1C5E2C1816EC0051E08E /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C5D2C1816EC0051E08E /* LoginService.swift */; };
+		B3FA1C602C1817B80051E08E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C5F2C1817B80051E08E /* String.swift */; };
+		B3FA1C622C18185E0051E08E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C612C18185E0051E08E /* Utils.swift */; };
+		B3FA1C672C1818D30051E08E /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C662C1818D30051E08E /* Assembler.swift */; };
+		B3FA1C692C1818E90051E08E /* DataSourceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C682C1818E90051E08E /* DataSourceAssembly.swift */; };
+		B3FA1C6B2C1819070051E08E /* RepositoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C6A2C1819070051E08E /* RepositoryAssembly.swift */; };
+		B3FA1C6D2C18192B0051E08E /* UseCaseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C6C2C18192B0051E08E /* UseCaseAssembly.swift */; };
+		B3FA1C6F2C1819420051E08E /* NetworkAssemby.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1C6E2C1819420051E08E /* NetworkAssemby.swift */; };
+		B3FA1C912C1819B20051E08E /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C712C1819B10051E08E /* Gotham-Black.otf */; };
+		B3FA1C922C1819B20051E08E /* Gotham-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C722C1819B10051E08E /* Gotham-BlackItalic.otf */; };
+		B3FA1C932C1819B20051E08E /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C732C1819B10051E08E /* Gotham-Bold.otf */; };
+		B3FA1C942C1819B20051E08E /* Gotham-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C742C1819B10051E08E /* Gotham-BoldItalic.otf */; };
+		B3FA1C952C1819B20051E08E /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C752C1819B10051E08E /* Gotham-Book.otf */; };
+		B3FA1C962C1819B20051E08E /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C762C1819B10051E08E /* Gotham-BookItalic.otf */; };
+		B3FA1C972C1819B20051E08E /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C772C1819B10051E08E /* Gotham-Light.otf */; };
+		B3FA1C982C1819B20051E08E /* Gotham-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C782C1819B10051E08E /* Gotham-LightItalic.otf */; };
+		B3FA1C992C1819B20051E08E /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C792C1819B10051E08E /* Gotham-Medium.otf */; };
+		B3FA1C9A2C1819B20051E08E /* Gotham-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C7A2C1819B10051E08E /* Gotham-MediumItalic.otf */; };
+		B3FA1C9B2C1819B20051E08E /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C7B2C1819B10051E08E /* Gotham-Thin.otf */; };
+		B3FA1C9C2C1819B20051E08E /* Gotham-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C7C2C1819B10051E08E /* Gotham-ThinItalic.otf */; };
+		B3FA1C9D2C1819B20051E08E /* Gotham-Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C7D2C1819B10051E08E /* Gotham-Ultra.otf */; };
+		B3FA1C9E2C1819B20051E08E /* Gotham-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C7E2C1819B10051E08E /* Gotham-UltraItalic.otf */; };
+		B3FA1C9F2C1819B20051E08E /* Gotham-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C7F2C1819B10051E08E /* Gotham-XLight.otf */; };
+		B3FA1CA02C1819B20051E08E /* Gotham-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C802C1819B10051E08E /* Gotham-XLightItalic.otf */; };
+		B3FA1CA12C1819B20051E08E /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C822C1819B10051E08E /* LICENSE.txt */; };
+		B3FA1CA22C1819B20051E08E /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C832C1819B10051E08E /* Roboto-Black.ttf */; };
+		B3FA1CA32C1819B20051E08E /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C842C1819B10051E08E /* Roboto-BlackItalic.ttf */; };
+		B3FA1CA42C1819B20051E08E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C852C1819B10051E08E /* Roboto-Bold.ttf */; };
+		B3FA1CA52C1819B20051E08E /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C862C1819B10051E08E /* Roboto-BoldItalic.ttf */; };
+		B3FA1CA62C1819B20051E08E /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C872C1819B10051E08E /* Roboto-Italic.ttf */; };
+		B3FA1CA72C1819B20051E08E /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C882C1819B10051E08E /* Roboto-Light.ttf */; };
+		B3FA1CA82C1819B20051E08E /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C892C1819B10051E08E /* Roboto-LightItalic.ttf */; };
+		B3FA1CA92C1819B20051E08E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C8A2C1819B10051E08E /* Roboto-Medium.ttf */; };
+		B3FA1CAA2C1819B20051E08E /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C8B2C1819B10051E08E /* Roboto-MediumItalic.ttf */; };
+		B3FA1CAB2C1819B20051E08E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C8C2C1819B10051E08E /* Roboto-Regular.ttf */; };
+		B3FA1CAC2C1819B20051E08E /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C8D2C1819B10051E08E /* Roboto-Thin.ttf */; };
+		B3FA1CAD2C1819B20051E08E /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3FA1C8E2C1819B10051E08E /* Roboto-ThinItalic.ttf */; };
+		B3FA1CAF2C1819DB0051E08E /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1CAE2C1819DB0051E08E /* FontManager.swift */; };
+		B3FA1CB12C181A2C0051E08E /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1CB02C181A2C0051E08E /* AppRouter.swift */; };
+		B3FA1CB32C181A760051E08E /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1CB22C181A760051E08E /* Mockable.swift */; };
+		B3FA1CB72C181AED0051E08E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1CB62C181AED0051E08E /* RootView.swift */; };
+		B3FA1CBE2C181BC50051E08E /* AnimalProDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3FA1CBC2C181BC50051E08E /* AnimalProDB.xcdatamodeld */; };
+		FF71239648CADB6328F9C6F3 /* Pods_AnimalPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F183B07B267C7A4D07B16 /* Pods_AnimalPro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3FA1C132C18110D0051E08E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3FA1BF52C18110B0051E08E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FA1BFC2C18110B0051E08E;
+			remoteInfo = AnimalPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C95130102C9F94EB6F02025 /* Pods-AnimalPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalPro.debug.xcconfig"; path = "Target Support Files/Pods-AnimalPro/Pods-AnimalPro.debug.xcconfig"; sourceTree = "<group>"; };
+		177621A51A01B673D3E46A25 /* Pods-AnimalPro.debug uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalPro.debug uat.xcconfig"; path = "Target Support Files/Pods-AnimalPro/Pods-AnimalPro.debug uat.xcconfig"; sourceTree = "<group>"; };
+		1C34DC9F27DE16C2B443E5DD /* Pods-AnimalProTests.release development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalProTests.release development.xcconfig"; path = "Target Support Files/Pods-AnimalProTests/Pods-AnimalProTests.release development.xcconfig"; sourceTree = "<group>"; };
+		365DAF3F7C28B612E49421F0 /* Pods-AnimalPro.release qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalPro.release qa.xcconfig"; path = "Target Support Files/Pods-AnimalPro/Pods-AnimalPro.release qa.xcconfig"; sourceTree = "<group>"; };
+		3A1370D34CE89EA1E7FE82AC /* Pods-AnimalPro.debug qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalPro.debug qa.xcconfig"; path = "Target Support Files/Pods-AnimalPro/Pods-AnimalPro.debug qa.xcconfig"; sourceTree = "<group>"; };
+		44AACADF9BEF0DCE92001AD3 /* Pods-AnimalPro.debug development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalPro.debug development.xcconfig"; path = "Target Support Files/Pods-AnimalPro/Pods-AnimalPro.debug development.xcconfig"; sourceTree = "<group>"; };
+		4963992666824BD2C0AE0B05 /* Pods-AnimalProTests.release qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalProTests.release qa.xcconfig"; path = "Target Support Files/Pods-AnimalProTests/Pods-AnimalProTests.release qa.xcconfig"; sourceTree = "<group>"; };
+		70066BA809E8EC742413C526 /* Pods-AnimalProTests.debug development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalProTests.debug development.xcconfig"; path = "Target Support Files/Pods-AnimalProTests/Pods-AnimalProTests.debug development.xcconfig"; sourceTree = "<group>"; };
+		8A408D4F461ED0247BA03102 /* Pods-AnimalProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalProTests.release.xcconfig"; path = "Target Support Files/Pods-AnimalProTests/Pods-AnimalProTests.release.xcconfig"; sourceTree = "<group>"; };
+		A34CE17A703AE7358E830218 /* Pods-AnimalProTests.release uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalProTests.release uat.xcconfig"; path = "Target Support Files/Pods-AnimalProTests/Pods-AnimalProTests.release uat.xcconfig"; sourceTree = "<group>"; };
+		A50F2F180A49EE7AF184D30E /* Pods-AnimalProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalProTests.debug.xcconfig"; path = "Target Support Files/Pods-AnimalProTests/Pods-AnimalProTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE8F183B07B267C7A4D07B16 /* Pods_AnimalPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31E15E72C1821AB0012E1A7 /* AnimalPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnimalPro.entitlements; sourceTree = "<group>"; };
+		B31E15E82C1824ED0012E1A7 /* K.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		B36F7C5D2C1826D1004A5A88 /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
+		B3FA1BFD2C18110B0051E08E /* AnimalPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FA1C002C18110B0051E08E /* AnimalProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalProApp.swift; sourceTree = "<group>"; };
+		B3FA1C042C18110D0051E08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3FA1C072C18110D0051E08E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3FA1C092C18110D0051E08E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B3FA1C122C18110D0051E08E /* AnimalProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FA1C162C18110D0051E08E /* AnimalProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalProTests.swift; sourceTree = "<group>"; };
+		B3FA1C422C1813970051E08E /* BuildConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfiguration.swift; sourceTree = "<group>"; };
+		B3FA1C442C1813C50051E08E /* BuildEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildEnvironment.swift; sourceTree = "<group>"; };
+		B3FA1C462C18147F0051E08E /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		B3FA1C482C1814AA0051E08E /* DefaultError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultError.swift; sourceTree = "<group>"; };
+		B3FA1C4A2C1814C00051E08E /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		B3FA1C4D2C1814E40051E08E /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		B3FA1C4F2C1815050051E08E /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		B3FA1C512C18151C0051E08E /* APISession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISession.swift; sourceTree = "<group>"; };
+		B3FA1C532C1815370051E08E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		B3FA1C562C1815C30051E08E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B3FA1C592C18161B0051E08E /* UserSessionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionData.swift; sourceTree = "<group>"; };
+		B3FA1C5B2C1816B90051E08E /* RefreshTokenPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenPayload.swift; sourceTree = "<group>"; };
+		B3FA1C5D2C1816EC0051E08E /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		B3FA1C5F2C1817B80051E08E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B3FA1C612C18185E0051E08E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B3FA1C662C1818D30051E08E /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
+		B3FA1C682C1818E90051E08E /* DataSourceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceAssembly.swift; sourceTree = "<group>"; };
+		B3FA1C6A2C1819070051E08E /* RepositoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryAssembly.swift; sourceTree = "<group>"; };
+		B3FA1C6C2C18192B0051E08E /* UseCaseAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseAssembly.swift; sourceTree = "<group>"; };
+		B3FA1C6E2C1819420051E08E /* NetworkAssemby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAssemby.swift; sourceTree = "<group>"; };
+		B3FA1C712C1819B10051E08E /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
+		B3FA1C722C1819B10051E08E /* Gotham-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BlackItalic.otf"; sourceTree = "<group>"; };
+		B3FA1C732C1819B10051E08E /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		B3FA1C742C1819B10051E08E /* Gotham-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BoldItalic.otf"; sourceTree = "<group>"; };
+		B3FA1C752C1819B10051E08E /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
+		B3FA1C762C1819B10051E08E /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BookItalic.otf"; sourceTree = "<group>"; };
+		B3FA1C772C1819B10051E08E /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		B3FA1C782C1819B10051E08E /* Gotham-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-LightItalic.otf"; sourceTree = "<group>"; };
+		B3FA1C792C1819B10051E08E /* Gotham-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Medium.otf"; sourceTree = "<group>"; };
+		B3FA1C7A2C1819B10051E08E /* Gotham-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-MediumItalic.otf"; sourceTree = "<group>"; };
+		B3FA1C7B2C1819B10051E08E /* Gotham-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin.otf"; sourceTree = "<group>"; };
+		B3FA1C7C2C1819B10051E08E /* Gotham-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-ThinItalic.otf"; sourceTree = "<group>"; };
+		B3FA1C7D2C1819B10051E08E /* Gotham-Ultra.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Ultra.otf"; sourceTree = "<group>"; };
+		B3FA1C7E2C1819B10051E08E /* Gotham-UltraItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-UltraItalic.otf"; sourceTree = "<group>"; };
+		B3FA1C7F2C1819B10051E08E /* Gotham-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLight.otf"; sourceTree = "<group>"; };
+		B3FA1C802C1819B10051E08E /* Gotham-XLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLightItalic.otf"; sourceTree = "<group>"; };
+		B3FA1C822C1819B10051E08E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		B3FA1C832C1819B10051E08E /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		B3FA1C842C1819B10051E08E /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B3FA1C852C1819B10051E08E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		B3FA1C862C1819B10051E08E /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B3FA1C872C1819B10051E08E /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		B3FA1C882C1819B10051E08E /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		B3FA1C892C1819B10051E08E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		B3FA1C8A2C1819B10051E08E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		B3FA1C8B2C1819B10051E08E /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B3FA1C8C2C1819B10051E08E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B3FA1C8D2C1819B10051E08E /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		B3FA1C8E2C1819B10051E08E /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B3FA1CAE2C1819DB0051E08E /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		B3FA1CB02C181A2C0051E08E /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		B3FA1CB22C181A760051E08E /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
+		B3FA1CB62C181AED0051E08E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B3FA1CBD2C181BC50051E08E /* AnimalProDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimalProDB.xcdatamodel; sourceTree = "<group>"; };
+		B3FA1CD72C181E620051E08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D66BF4635B5425EF34EA341A /* Pods-AnimalPro.release uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalPro.release uat.xcconfig"; path = "Target Support Files/Pods-AnimalPro/Pods-AnimalPro.release uat.xcconfig"; sourceTree = "<group>"; };
+		DB363C943E8FB00456CF091C /* Pods-AnimalPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalPro.release.xcconfig"; path = "Target Support Files/Pods-AnimalPro/Pods-AnimalPro.release.xcconfig"; sourceTree = "<group>"; };
+		E6624F827C8F429ED1BA7D62 /* Pods-AnimalProTests.debug uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalProTests.debug uat.xcconfig"; path = "Target Support Files/Pods-AnimalProTests/Pods-AnimalProTests.debug uat.xcconfig"; sourceTree = "<group>"; };
+		EA66EED86ED8CE052834F59F /* Pods-AnimalPro.release development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalPro.release development.xcconfig"; path = "Target Support Files/Pods-AnimalPro/Pods-AnimalPro.release development.xcconfig"; sourceTree = "<group>"; };
+		F6C1B0356BAA720A73CB41B8 /* Pods_AnimalProTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalProTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD67E07AF6769287DEDF054D /* Pods-AnimalProTests.debug qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalProTests.debug qa.xcconfig"; path = "Target Support Files/Pods-AnimalProTests/Pods-AnimalProTests.debug qa.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3FA1BFA2C18110B0051E08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31E15E62C18204D0012E1A7 /* FirebaseMessaging in Frameworks */,
+				FF71239648CADB6328F9C6F3 /* Pods_AnimalPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FA1C0F2C18110D0051E08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9050535BB6B499E2C2E3FDC1 /* Pods_AnimalProTests.framework in Frameworks */,
+				B31E15E32C181FFC0012E1A7 /* ViewInspector in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B19B1DCB629F25771DA8353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F183B07B267C7A4D07B16 /* Pods_AnimalPro.framework */,
+				F6C1B0356BAA720A73CB41B8 /* Pods_AnimalProTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D5CA2A30A479D65E94043C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C95130102C9F94EB6F02025 /* Pods-AnimalPro.debug.xcconfig */,
+				DB363C943E8FB00456CF091C /* Pods-AnimalPro.release.xcconfig */,
+				A50F2F180A49EE7AF184D30E /* Pods-AnimalProTests.debug.xcconfig */,
+				8A408D4F461ED0247BA03102 /* Pods-AnimalProTests.release.xcconfig */,
+				44AACADF9BEF0DCE92001AD3 /* Pods-AnimalPro.debug development.xcconfig */,
+				3A1370D34CE89EA1E7FE82AC /* Pods-AnimalPro.debug qa.xcconfig */,
+				177621A51A01B673D3E46A25 /* Pods-AnimalPro.debug uat.xcconfig */,
+				EA66EED86ED8CE052834F59F /* Pods-AnimalPro.release development.xcconfig */,
+				365DAF3F7C28B612E49421F0 /* Pods-AnimalPro.release qa.xcconfig */,
+				D66BF4635B5425EF34EA341A /* Pods-AnimalPro.release uat.xcconfig */,
+				70066BA809E8EC742413C526 /* Pods-AnimalProTests.debug development.xcconfig */,
+				FD67E07AF6769287DEDF054D /* Pods-AnimalProTests.debug qa.xcconfig */,
+				E6624F827C8F429ED1BA7D62 /* Pods-AnimalProTests.debug uat.xcconfig */,
+				1C34DC9F27DE16C2B443E5DD /* Pods-AnimalProTests.release development.xcconfig */,
+				4963992666824BD2C0AE0B05 /* Pods-AnimalProTests.release qa.xcconfig */,
+				A34CE17A703AE7358E830218 /* Pods-AnimalProTests.release uat.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3FA1BF42C18110B0051E08E = {
+			isa = PBXGroup;
+			children = (
+				B3FA1BFF2C18110B0051E08E /* AnimalPro */,
+				B3FA1C152C18110D0051E08E /* AnimalProTests */,
+				B3FA1BFE2C18110B0051E08E /* Products */,
+				8D5CA2A30A479D65E94043C5 /* Pods */,
+				8B19B1DCB629F25771DA8353 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3FA1BFE2C18110B0051E08E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1BFD2C18110B0051E08E /* AnimalPro.app */,
+				B3FA1C122C18110D0051E08E /* AnimalProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3FA1BFF2C18110B0051E08E /* AnimalPro */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1CD72C181E620051E08E /* Info.plist */,
+				B3FA1C2F2C1812300051E08E /* Data */,
+				B3FA1C302C1812340051E08E /* Domain */,
+				B3FA1C312C1812410051E08E /* Framework */,
+				B3FA1C322C1812490051E08E /* Presentation */,
+				B3FA1C002C18110B0051E08E /* AnimalProApp.swift */,
+				B3FA1C042C18110D0051E08E /* Assets.xcassets */,
+				B31E15E72C1821AB0012E1A7 /* AnimalPro.entitlements */,
+				B3FA1C062C18110D0051E08E /* Preview Content */,
+			);
+			path = AnimalPro;
+			sourceTree = "<group>";
+		};
+		B3FA1C062C18110D0051E08E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C072C18110D0051E08E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3FA1C152C18110D0051E08E /* AnimalProTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36F7C5D2C1826D1004A5A88 /* GeneratedMocks.swift */,
+				B3FA1C162C18110D0051E08E /* AnimalProTests.swift */,
+			);
+			path = AnimalProTests;
+			sourceTree = "<group>";
+		};
+		B3FA1C2F2C1812300051E08E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C352C1812680051E08E /* DataSource */,
+				B3FA1C342C1812650051E08E /* Model */,
+				B3FA1C332C18125D0051E08E /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B3FA1C302C1812340051E08E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C642C18189A0051E08E /* Repositories */,
+				B3FA1C632C1818950051E08E /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B3FA1C312C1812410051E08E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C652C1818C20051E08E /* Di */,
+				B3FA1C412C18137C0051E08E /* Utils */,
+				B3FA1C4C2C1814D90051E08E /* Extension */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		B3FA1C322C1812490051E08E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1CB42C181A9A0051E08E /* Components */,
+				B3FA1CB52C181AB50051E08E /* Root */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B3FA1C332C18125D0051E08E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		B3FA1C342C1812650051E08E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C562C1815C30051E08E /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3FA1C352C1812680051E08E /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C362C1812770051E08E /* Local */,
+				B3FA1C372C18127A0051E08E /* Remote */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		B3FA1C362C1812770051E08E /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C582C18160F0051E08E /* UserDefaults */,
+				B3FA1C382C18128E0051E08E /* DataBase */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		B3FA1C372C18127A0051E08E /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C3B2C1813000051E08E /* Network */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		B3FA1C382C18128E0051E08E /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C392C1812970051E08E /* Entities */,
+				B3FA1C3A2C18129C0051E08E /* DataManagers */,
+				B3FA1C092C18110D0051E08E /* CoreDataManager.swift */,
+				B3FA1CBC2C181BC50051E08E /* AnimalProDB.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		B3FA1C392C1812970051E08E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B3FA1C3A2C18129C0051E08E /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		B3FA1C3B2C1813000051E08E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C3C2C18130D0051E08E /* Responses */,
+				B3FA1C3D2C1813120051E08E /* Payloads */,
+				B3FA1C3E2C18131F0051E08E /* Api */,
+				B31E15E82C1824ED0012E1A7 /* K.swift */,
+				B3FA1C5D2C1816EC0051E08E /* LoginService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B3FA1C3C2C18130D0051E08E /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		B3FA1C3D2C1813120051E08E /* Payloads */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C5B2C1816B90051E08E /* RefreshTokenPayload.swift */,
+			);
+			path = Payloads;
+			sourceTree = "<group>";
+		};
+		B3FA1C3E2C18131F0051E08E /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C462C18147F0051E08E /* RequestBuilder.swift */,
+				B3FA1C482C1814AA0051E08E /* DefaultError.swift */,
+				B3FA1C4A2C1814C00051E08E /* APIError.swift */,
+				B3FA1C4F2C1815050051E08E /* APIResponse.swift */,
+				B3FA1C512C18151C0051E08E /* APISession.swift */,
+				B3FA1C532C1815370051E08E /* APIService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		B3FA1C412C18137C0051E08E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C702C1819A70051E08E /* Resources */,
+				B3FA1C422C1813970051E08E /* BuildConfiguration.swift */,
+				B3FA1C442C1813C50051E08E /* BuildEnvironment.swift */,
+				B3FA1C612C18185E0051E08E /* Utils.swift */,
+				B3FA1CAE2C1819DB0051E08E /* FontManager.swift */,
+				B3FA1CB02C181A2C0051E08E /* AppRouter.swift */,
+				B3FA1CB22C181A760051E08E /* Mockable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B3FA1C4C2C1814D90051E08E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C4D2C1814E40051E08E /* Encodable.swift */,
+				B3FA1C5F2C1817B80051E08E /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B3FA1C582C18160F0051E08E /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C592C18161B0051E08E /* UserSessionData.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		B3FA1C632C1818950051E08E /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		B3FA1C642C18189A0051E08E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		B3FA1C652C1818C20051E08E /* Di */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C662C1818D30051E08E /* Assembler.swift */,
+				B3FA1C682C1818E90051E08E /* DataSourceAssembly.swift */,
+				B3FA1C6A2C1819070051E08E /* RepositoryAssembly.swift */,
+				B3FA1C6C2C18192B0051E08E /* UseCaseAssembly.swift */,
+				B3FA1C6E2C1819420051E08E /* NetworkAssemby.swift */,
+			);
+			path = Di;
+			sourceTree = "<group>";
+		};
+		B3FA1C702C1819A70051E08E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C902C1819B10051E08E /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3FA1C812C1819B10051E08E /* Gotham */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C712C1819B10051E08E /* Gotham-Black.otf */,
+				B3FA1C722C1819B10051E08E /* Gotham-BlackItalic.otf */,
+				B3FA1C732C1819B10051E08E /* Gotham-Bold.otf */,
+				B3FA1C742C1819B10051E08E /* Gotham-BoldItalic.otf */,
+				B3FA1C752C1819B10051E08E /* Gotham-Book.otf */,
+				B3FA1C762C1819B10051E08E /* Gotham-BookItalic.otf */,
+				B3FA1C772C1819B10051E08E /* Gotham-Light.otf */,
+				B3FA1C782C1819B10051E08E /* Gotham-LightItalic.otf */,
+				B3FA1C792C1819B10051E08E /* Gotham-Medium.otf */,
+				B3FA1C7A2C1819B10051E08E /* Gotham-MediumItalic.otf */,
+				B3FA1C7B2C1819B10051E08E /* Gotham-Thin.otf */,
+				B3FA1C7C2C1819B10051E08E /* Gotham-ThinItalic.otf */,
+				B3FA1C7D2C1819B10051E08E /* Gotham-Ultra.otf */,
+				B3FA1C7E2C1819B10051E08E /* Gotham-UltraItalic.otf */,
+				B3FA1C7F2C1819B10051E08E /* Gotham-XLight.otf */,
+				B3FA1C802C1819B10051E08E /* Gotham-XLightItalic.otf */,
+			);
+			path = Gotham;
+			sourceTree = "<group>";
+		};
+		B3FA1C8F2C1819B10051E08E /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C822C1819B10051E08E /* LICENSE.txt */,
+				B3FA1C832C1819B10051E08E /* Roboto-Black.ttf */,
+				B3FA1C842C1819B10051E08E /* Roboto-BlackItalic.ttf */,
+				B3FA1C852C1819B10051E08E /* Roboto-Bold.ttf */,
+				B3FA1C862C1819B10051E08E /* Roboto-BoldItalic.ttf */,
+				B3FA1C872C1819B10051E08E /* Roboto-Italic.ttf */,
+				B3FA1C882C1819B10051E08E /* Roboto-Light.ttf */,
+				B3FA1C892C1819B10051E08E /* Roboto-LightItalic.ttf */,
+				B3FA1C8A2C1819B10051E08E /* Roboto-Medium.ttf */,
+				B3FA1C8B2C1819B10051E08E /* Roboto-MediumItalic.ttf */,
+				B3FA1C8C2C1819B10051E08E /* Roboto-Regular.ttf */,
+				B3FA1C8D2C1819B10051E08E /* Roboto-Thin.ttf */,
+				B3FA1C8E2C1819B10051E08E /* Roboto-ThinItalic.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		B3FA1C902C1819B10051E08E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1C812C1819B10051E08E /* Gotham */,
+				B3FA1C8F2C1819B10051E08E /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B3FA1CB42C181A9A0051E08E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B3FA1CB52C181AB50051E08E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA1CB62C181AED0051E08E /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3FA1BFC2C18110B0051E08E /* AnimalPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FA1C262C18110D0051E08E /* Build configuration list for PBXNativeTarget "AnimalPro" */;
+			buildPhases = (
+				4CA82D3533B7B10D407480E8 /* [CP] Check Pods Manifest.lock */,
+				B3FA1BF92C18110B0051E08E /* Sources */,
+				B3FA1BFA2C18110B0051E08E /* Frameworks */,
+				B3FA1BFB2C18110B0051E08E /* Resources */,
+				9764D7D0AD4CAF3D7E12FEC4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalPro;
+			packageProductDependencies = (
+				B31E15E52C18204D0012E1A7 /* FirebaseMessaging */,
+			);
+			productName = AnimalPro;
+			productReference = B3FA1BFD2C18110B0051E08E /* AnimalPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3FA1C112C18110D0051E08E /* AnimalProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FA1C292C18110D0051E08E /* Build configuration list for PBXNativeTarget "AnimalProTests" */;
+			buildPhases = (
+				B0F831CE01749D5DFF58637D /* [CP] Check Pods Manifest.lock */,
+				B3FA1C0E2C18110D0051E08E /* Sources */,
+				B3FA1C0F2C18110D0051E08E /* Frameworks */,
+				B3FA1C102C18110D0051E08E /* Resources */,
+				C55BBC970B2A77EF1D6BB50F /* [CP] Embed Pods Frameworks */,
+				B36F7C5C2C1826A9004A5A88 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3FA1C142C18110D0051E08E /* PBXTargetDependency */,
+			);
+			name = AnimalProTests;
+			packageProductDependencies = (
+				B31E15E22C181FFC0012E1A7 /* ViewInspector */,
+			);
+			productName = AnimalProTests;
+			productReference = B3FA1C122C18110D0051E08E /* AnimalProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3FA1BF52C18110B0051E08E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B3FA1BFC2C18110B0051E08E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B3FA1C112C18110D0051E08E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B3FA1BFC2C18110B0051E08E;
+					};
+				};
+			};
+			buildConfigurationList = B3FA1BF82C18110B0051E08E /* Build configuration list for PBXProject "AnimalPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3FA1BF42C18110B0051E08E;
+			packageReferences = (
+				B31E15E12C181FFC0012E1A7 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+				B31E15E42C18204D0012E1A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = B3FA1BFE2C18110B0051E08E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FA1BFC2C18110B0051E08E /* AnimalPro */,
+				B3FA1C112C18110D0051E08E /* AnimalProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3FA1BFB2C18110B0051E08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FA1C932C1819B20051E08E /* Gotham-Bold.otf in Resources */,
+				B3FA1CAD2C1819B20051E08E /* Roboto-ThinItalic.ttf in Resources */,
+				B3FA1C9B2C1819B20051E08E /* Gotham-Thin.otf in Resources */,
+				B3FA1C082C18110D0051E08E /* Preview Assets.xcassets in Resources */,
+				B3FA1C992C1819B20051E08E /* Gotham-Medium.otf in Resources */,
+				B3FA1CAA2C1819B20051E08E /* Roboto-MediumItalic.ttf in Resources */,
+				B3FA1CAB2C1819B20051E08E /* Roboto-Regular.ttf in Resources */,
+				B3FA1CA82C1819B20051E08E /* Roboto-LightItalic.ttf in Resources */,
+				B3FA1CA42C1819B20051E08E /* Roboto-Bold.ttf in Resources */,
+				B3FA1CAC2C1819B20051E08E /* Roboto-Thin.ttf in Resources */,
+				B3FA1CA12C1819B20051E08E /* LICENSE.txt in Resources */,
+				B3FA1C972C1819B20051E08E /* Gotham-Light.otf in Resources */,
+				B3FA1CA02C1819B20051E08E /* Gotham-XLightItalic.otf in Resources */,
+				B3FA1CA22C1819B20051E08E /* Roboto-Black.ttf in Resources */,
+				B3FA1C9D2C1819B20051E08E /* Gotham-Ultra.otf in Resources */,
+				B3FA1C962C1819B20051E08E /* Gotham-BookItalic.otf in Resources */,
+				B3FA1CA32C1819B20051E08E /* Roboto-BlackItalic.ttf in Resources */,
+				B3FA1CA72C1819B20051E08E /* Roboto-Light.ttf in Resources */,
+				B3FA1C922C1819B20051E08E /* Gotham-BlackItalic.otf in Resources */,
+				B3FA1CA62C1819B20051E08E /* Roboto-Italic.ttf in Resources */,
+				B3FA1C9E2C1819B20051E08E /* Gotham-UltraItalic.otf in Resources */,
+				B3FA1C912C1819B20051E08E /* Gotham-Black.otf in Resources */,
+				B3FA1C9F2C1819B20051E08E /* Gotham-XLight.otf in Resources */,
+				B3FA1CA52C1819B20051E08E /* Roboto-BoldItalic.ttf in Resources */,
+				B3FA1C9C2C1819B20051E08E /* Gotham-ThinItalic.otf in Resources */,
+				B3FA1C982C1819B20051E08E /* Gotham-LightItalic.otf in Resources */,
+				B3FA1C942C1819B20051E08E /* Gotham-BoldItalic.otf in Resources */,
+				B3FA1C952C1819B20051E08E /* Gotham-Book.otf in Resources */,
+				B3FA1C9A2C1819B20051E08E /* Gotham-MediumItalic.otf in Resources */,
+				B3FA1C052C18110D0051E08E /* Assets.xcassets in Resources */,
+				B3FA1CA92C1819B20051E08E /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FA1C102C18110D0051E08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CA82D3533B7B10D407480E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimalPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9764D7D0AD4CAF3D7E12FEC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalPro/Pods-AnimalPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalPro/Pods-AnimalPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimalPro/Pods-AnimalPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F831CE01749D5DFF58637D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimalProTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36F7C5C2C1826A9004A5A88 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Skip for indexing\nif [ $ACTION == \"indexbuild\" ]; then\n  exit 0\nfi\n\n# Skip for preview builds\nif [ \"${ENABLE_PREVIEWS}\" = \"YES\" ]; then\n  exit 0\nfi\n\n\"${PODS_ROOT}/Cuckoo/run\"\n";
+		};
+		C55BBC970B2A77EF1D6BB50F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalProTests/Pods-AnimalProTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalProTests/Pods-AnimalProTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimalProTests/Pods-AnimalProTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3FA1BF92C18110B0051E08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FA1C602C1817B80051E08E /* String.swift in Sources */,
+				B31E15E92C1824ED0012E1A7 /* K.swift in Sources */,
+				B3FA1C6D2C18192B0051E08E /* UseCaseAssembly.swift in Sources */,
+				B3FA1C0A2C18110D0051E08E /* CoreDataManager.swift in Sources */,
+				B3FA1C6B2C1819070051E08E /* RepositoryAssembly.swift in Sources */,
+				B3FA1CB72C181AED0051E08E /* RootView.swift in Sources */,
+				B3FA1C432C1813970051E08E /* BuildConfiguration.swift in Sources */,
+				B3FA1CB12C181A2C0051E08E /* AppRouter.swift in Sources */,
+				B3FA1C4B2C1814C00051E08E /* APIError.swift in Sources */,
+				B3FA1CBE2C181BC50051E08E /* AnimalProDB.xcdatamodeld in Sources */,
+				B3FA1C692C1818E90051E08E /* DataSourceAssembly.swift in Sources */,
+				B3FA1C502C1815050051E08E /* APIResponse.swift in Sources */,
+				B3FA1CAF2C1819DB0051E08E /* FontManager.swift in Sources */,
+				B3FA1C492C1814AA0051E08E /* DefaultError.swift in Sources */,
+				B3FA1C5C2C1816B90051E08E /* RefreshTokenPayload.swift in Sources */,
+				B3FA1C572C1815C30051E08E /* User.swift in Sources */,
+				B3FA1C542C1815370051E08E /* APIService.swift in Sources */,
+				B3FA1C012C18110B0051E08E /* AnimalProApp.swift in Sources */,
+				B3FA1C452C1813C50051E08E /* BuildEnvironment.swift in Sources */,
+				B3FA1CB32C181A760051E08E /* Mockable.swift in Sources */,
+				B3FA1C5E2C1816EC0051E08E /* LoginService.swift in Sources */,
+				B3FA1C622C18185E0051E08E /* Utils.swift in Sources */,
+				B3FA1C672C1818D30051E08E /* Assembler.swift in Sources */,
+				B3FA1C472C18147F0051E08E /* RequestBuilder.swift in Sources */,
+				B3FA1C5A2C18161B0051E08E /* UserSessionData.swift in Sources */,
+				B3FA1C4E2C1814E40051E08E /* Encodable.swift in Sources */,
+				B3FA1C6F2C1819420051E08E /* NetworkAssemby.swift in Sources */,
+				B3FA1C522C18151C0051E08E /* APISession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FA1C0E2C18110D0051E08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FA1C172C18110D0051E08E /* AnimalProTests.swift in Sources */,
+				B36F7C5E2C1826D1004A5A88 /* GeneratedMocks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3FA1C142C18110D0051E08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3FA1BFC2C18110B0051E08E /* AnimalPro */;
+			targetProxy = B3FA1C132C18110D0051E08E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3FA1C242C18110D0051E08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3FA1C252C18110D0051E08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3FA1C272C18110D0051E08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C95130102C9F94EB6F02025 /* Pods-AnimalPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnimalPro/AnimalPro.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240610;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalPro/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalPro;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B3FA1C282C18110D0051E08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB363C943E8FB00456CF091C /* Pods-AnimalPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnimalPro/AnimalPro.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240610;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalPro/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalPro;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B3FA1C2A2C18110D0051E08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50F2F180A49EE7AF184D30E /* Pods-AnimalProTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBA95AV5R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimalPro";
+			};
+			name = Debug;
+		};
+		B3FA1C2B2C18110D0051E08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A408D4F461ED0247BA03102 /* Pods-AnimalProTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBA95AV5R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimalPro";
+			};
+			name = Release;
+		};
+		B3FA1CBF2C181CB40051E08E /* Debug Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug Development";
+		};
+		B3FA1CC02C181CB40051E08E /* Debug Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AACADF9BEF0DCE92001AD3 /* Pods-AnimalPro.debug development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnimalPro/AnimalPro.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240610;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalPro/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = PSBA95AV5R;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalPro;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalPro.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "AnimalPro Profile Dev";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug Development";
+		};
+		B3FA1CC12C181CB40051E08E /* Debug Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70066BA809E8EC742413C526 /* Pods-AnimalProTests.debug development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBA95AV5R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimalPro";
+			};
+			name = "Debug Development";
+		};
+		B3FA1CC32C181CCC0051E08E /* Release Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Development";
+		};
+		B3FA1CC42C181CCC0051E08E /* Release Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA66EED86ED8CE052834F59F /* Pods-AnimalPro.release development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnimalPro/AnimalPro.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240610;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalPro/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = PSBA95AV5R;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalPro;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalPro.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "AnimalPro Profile Prod";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release Development";
+		};
+		B3FA1CC52C181CCC0051E08E /* Release Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C34DC9F27DE16C2B443E5DD /* Pods-AnimalProTests.release development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBA95AV5R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimalPro";
+			};
+			name = "Release Development";
+		};
+		B3FA1CC72C181CD90051E08E /* Debug QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug QA";
+		};
+		B3FA1CC82C181CD90051E08E /* Debug QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1370D34CE89EA1E7FE82AC /* Pods-AnimalPro.debug qa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnimalPro/AnimalPro.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240610;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalPro/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalPro;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalPro.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug QA";
+		};
+		B3FA1CC92C181CD90051E08E /* Debug QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD67E07AF6769287DEDF054D /* Pods-AnimalProTests.debug qa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBA95AV5R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimalPro";
+			};
+			name = "Debug QA";
+		};
+		B3FA1CCB2C181CE20051E08E /* Release QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release QA";
+		};
+		B3FA1CCC2C181CE20051E08E /* Release QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365DAF3F7C28B612E49421F0 /* Pods-AnimalPro.release qa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnimalPro/AnimalPro.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240610;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalPro/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalPro;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalPro.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release QA";
+		};
+		B3FA1CCD2C181CE20051E08E /* Release QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4963992666824BD2C0AE0B05 /* Pods-AnimalProTests.release qa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBA95AV5R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimalPro";
+			};
+			name = "Release QA";
+		};
+		B3FA1CCF2C181CEB0051E08E /* Debug UAT */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug UAT";
+		};
+		B3FA1CD02C181CEB0051E08E /* Debug UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177621A51A01B673D3E46A25 /* Pods-AnimalPro.debug uat.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnimalPro/AnimalPro.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240610;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalPro/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalPro;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalPro.uat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug UAT";
+		};
+		B3FA1CD12C181CEB0051E08E /* Debug UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6624F827C8F429ED1BA7D62 /* Pods-AnimalProTests.debug uat.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBA95AV5R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimalPro";
+			};
+			name = "Debug UAT";
+		};
+		B3FA1CD32C181CF60051E08E /* Release UAT */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release UAT";
+		};
+		B3FA1CD42C181CF60051E08E /* Release UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66BF4635B5425EF34EA341A /* Pods-AnimalPro.release uat.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnimalPro/AnimalPro.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240610;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalPro/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalPro;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalPro.uat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release UAT";
+		};
+		B3FA1CD52C181CF60051E08E /* Release UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34CE17A703AE7358E830218 /* Pods-AnimalProTests.release uat.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBA95AV5R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.animalpro.AnimalProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimalPro";
+			};
+			name = "Release UAT";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3FA1BF82C18110B0051E08E /* Build configuration list for PBXProject "AnimalPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FA1C242C18110D0051E08E /* Debug */,
+				B3FA1CBF2C181CB40051E08E /* Debug Development */,
+				B3FA1CC72C181CD90051E08E /* Debug QA */,
+				B3FA1CCF2C181CEB0051E08E /* Debug UAT */,
+				B3FA1C252C18110D0051E08E /* Release */,
+				B3FA1CC32C181CCC0051E08E /* Release Development */,
+				B3FA1CCB2C181CE20051E08E /* Release QA */,
+				B3FA1CD32C181CF60051E08E /* Release UAT */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FA1C262C18110D0051E08E /* Build configuration list for PBXNativeTarget "AnimalPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FA1C272C18110D0051E08E /* Debug */,
+				B3FA1CC02C181CB40051E08E /* Debug Development */,
+				B3FA1CC82C181CD90051E08E /* Debug QA */,
+				B3FA1CD02C181CEB0051E08E /* Debug UAT */,
+				B3FA1C282C18110D0051E08E /* Release */,
+				B3FA1CC42C181CCC0051E08E /* Release Development */,
+				B3FA1CCC2C181CE20051E08E /* Release QA */,
+				B3FA1CD42C181CF60051E08E /* Release UAT */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FA1C292C18110D0051E08E /* Build configuration list for PBXNativeTarget "AnimalProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FA1C2A2C18110D0051E08E /* Debug */,
+				B3FA1CC12C181CB40051E08E /* Debug Development */,
+				B3FA1CC92C181CD90051E08E /* Debug QA */,
+				B3FA1CD12C181CEB0051E08E /* Debug UAT */,
+				B3FA1C2B2C18110D0051E08E /* Release */,
+				B3FA1CC52C181CCC0051E08E /* Release Development */,
+				B3FA1CCD2C181CE20051E08E /* Release QA */,
+				B3FA1CD52C181CF60051E08E /* Release UAT */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B31E15E12C181FFC0012E1A7 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.11;
+			};
+		};
+		B31E15E42C18204D0012E1A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B31E15E22C181FFC0012E1A7 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B31E15E12C181FFC0012E1A7 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+		B31E15E52C18204D0012E1A7 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B31E15E42C18204D0012E1A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B3FA1CBC2C181BC50051E08E /* AnimalProDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3FA1CBD2C181BC50051E08E /* AnimalProDB.xcdatamodel */,
+			);
+			currentVersion = B3FA1CBD2C181BC50051E08E /* AnimalProDB.xcdatamodel */;
+			name = AnimalProDB.xcdatamodeld;
+			path = "/Users/edgarlopezenriquez/Developer/AnimalPro/animalpro-swift-ios-mobile/AnimalPro/Data/DataSource/Local/DataBase/AnimalProDB.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B3FA1BF52C18110B0051E08E /* Project object */;
+}

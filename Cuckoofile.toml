@@ -1,0 +1,10 @@
+# You can define a fallback output for all modules that don't define their own.
+output = "AnimalProTests/GeneratedMocks.swift"
+
+[modules.AnimalPro]
+output = "AnimalProTests/GeneratedMocks.swift"
+imports = []
+testableImports = ["AnimalPro"]
+sources = [
+    "AnimalPro/Data/DataSources/Remote/Network/Api/APIService.swift"
+]
