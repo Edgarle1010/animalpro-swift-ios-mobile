@@ -1,6 +1,0 @@
-framework module Pods_AnimalPro {
-  umbrella header "Pods-AnimalPro-umbrella.h"
-
-  export *
-  module * { export * }
-}

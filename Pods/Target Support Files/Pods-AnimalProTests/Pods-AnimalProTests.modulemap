@@ -1,6 +1,0 @@
-framework module Pods_AnimalProTests {
-  umbrella header "Pods-AnimalProTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
